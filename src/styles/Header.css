@@ -1,0 +1,42 @@
+.head_main{
+    border: 2px solid black;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+         justify-content: space-around;
+
+}
+
+.head_link{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     transition: all 0.5s ease-in-out;
+     justify-content: center;
+}
+
+.head_text{
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.head_ico{
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+.head_ico:hover{
+    color: orange;
+    transform: scale(1.2);
+}
+
+
+.head_link:hover{
+    color: orange;
+    transform: scale(1.2);
+}
